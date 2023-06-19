@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#chatbox {
+    width: 800px;
+    height: 700px;
+    border: 2px solid #ddd;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+    line-height: 20px;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #ddd;
+}
+#inputArea {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;  /* 按照你的聊天窗口大小设定 */
+}
+
+#userInput {
+    flex-grow: 1;  /* 让输入框尽可能占满剩余空间 */
+    margin-right: 10px;  /* 在按钮和输入框之间添加一些间隔 */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}

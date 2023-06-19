@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title>Chat with PDF</title>
+  <style>
+
+  </style>
+        <link rel="stylesheet" href="{{ url_for('static', filename='chatstyles.css') }}">
+
+</head>
+<body>
+  <h1>Chat with PDF</h1>
+  <div id="chatbox"></div>
+<div id="inputArea">
+  <input type="text" id="userInput">
+  <button onclick="submitQuestion()">Submit</button>
+</div>
+
+
+  <script src="/static/chat.js"></script>  <!-- Assuming you have a chat.js file -->
+</body>
+</html>
