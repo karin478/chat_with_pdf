@@ -53,12 +53,12 @@ button:hover {
 #inputArea {
     display: flex;
     justify-content: space-between;
-    width: 800px;  /* 按照你的聊天窗口大小设定 */
+    width: 800px;  
 }
 
 #userInput {
-    flex-grow: 1;  /* 让输入框尽可能占满剩余空间 */
-    margin-right: 10px;  /* 在按钮和输入框之间添加一些间隔 */
+    flex-grow: 1;  
+    margin-right: 10px;  
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
